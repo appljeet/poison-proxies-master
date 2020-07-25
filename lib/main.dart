@@ -22,23 +22,23 @@ class landingPageState extends StatefulWidget {
 class landingPage extends State<landingPageState> {
   // This widget is the root of your application.
 
-  bool a = false;
-  var height =0.0;
+  bool a = true;
+  var height =80.0;
 
-  bool b = false;
-  var height1 = 0.0;
+  bool b = true;
+  var height1 = 80.0;
 
-  bool c = false;
-  var height2 = 0.0;
+  bool c = true;
+  var height2 = 80.0;
 
-  bool d = false;
-  var height3 = 0.0;
+  bool d = true;
+  var height3 = 80.0;
 
-  bool e = false;
-  var height4 = 0.0;
+  bool e = true;
+  var height4 = 80.0;
 
-  bool f = false;
-  var height5 = 0.0;
+  bool f = true;
+  var height5 = 80.0;
 
   @override
   void initState() {
@@ -61,7 +61,7 @@ class landingPage extends State<landingPageState> {
                 Row(
                   children: [
                     Container(
-                      child: Icon(Icons.access_alarm),
+                      child: Image.asset('images/chemicon.png'),
                       padding: EdgeInsets.only(left: 30, right: 30),
                     ),
                     Container(
@@ -126,10 +126,7 @@ class landingPage extends State<landingPageState> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Icon(
-                  Icons.account_circle,
-                  size: 400,
-                ),
+                Image.asset('images/HS1.png',),
                 Container(
                   padding: EdgeInsets.only(top: 20),
                   child: Column(
@@ -929,7 +926,7 @@ whitePage3() {
 
                   Text('Option 1', style: TextStyle(fontSize: 40),),
 
-                  Icon(Icons.account_box,size: 200,),
+                  Image.asset('images/Layer1.png'),
 
                   SizedBox(height: 30,),
 
@@ -997,9 +994,9 @@ whitePage3() {
 
                   SizedBox(height: 15,),
 
-                  Text('Option 1', style: TextStyle(fontSize: 40),),
+                  Text('Option 2', style: TextStyle(fontSize: 40),),
 
-                  Icon(Icons.account_box,size: 200,),
+                  Image.asset('images/HS3.png'),
 
                   SizedBox(height: 30,),
 
@@ -1065,9 +1062,9 @@ whitePage3() {
 
                   SizedBox(height: 15,),
 
-                  Text('Option 1', style: TextStyle(fontSize: 40),),
+                  Text('Option 3', style: TextStyle(fontSize: 40),),
 
-                  Icon(Icons.account_box,size: 200,),
+                  Image.asset('images/DB.png'),
 
                   SizedBox(height: 30,),
 
@@ -1183,7 +1180,7 @@ purplePage2(){
               children: [
                 Row(
                   children: [
-                    Icon(Icons.account_circle,size: 100,),
+                    Icon(Icons.account_circle,size: 100,color: Colors.white,),
 
                     Container(
                       padding: EdgeInsets.only(left: 10),
@@ -1210,7 +1207,7 @@ purplePage2(){
               children: [
                 Row(
                   children: [
-                    Icon(Icons.account_circle,size: 100,),
+                    Icon(Icons.account_circle,size: 100,color: Colors.white,),
 
                     Container(
                       padding: EdgeInsets.only(left: 10),
@@ -1239,7 +1236,7 @@ purplePage2(){
               children: [
                 Row(
                   children: [
-                    Icon(Icons.account_circle,size: 100,),
+                    Icon(Icons.account_circle,size: 100,color: Colors.white,),
 
                     Container(
                       padding: EdgeInsets.only(left: 10),
@@ -1322,7 +1319,7 @@ purplePage5(){
           ],
         ),
 
-        Icon(Icons.account_circle)
+        Image.asset('images/chemicon.png',scale: 20,)
 
       ],
     ),
